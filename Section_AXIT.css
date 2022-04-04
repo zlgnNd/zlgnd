@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+._container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.page_AXIT {
+    width: 100%;
+    background-image: url("img/AXIT_backgraund_dark.svg"), url("img/AXIT_backgraund.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+}
+
+/*---------AXIT header--------------------------------*/
+
+.header_logo{
+    height: 31px;
+    padding: 22px 0;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+.AXIT__header {
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.AXIT__header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.AXIT__header__menu__list {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.AXIT__header__menu__link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 535%;
+    padding: 29px 28px;
+    cursor: pointer;
+}
+
+.AXIT__header__menu__link:hover {
+    background-color: #EC7979;
+    transition-duration: .5s;
+}
+
+.AXIT__header__menu__link:active {
+    background-color: #AB4949;
+    transition-duration: .5s;
+}
+
+.AXIT__burger__menu{
+    display: none;
+}
+
+/*AXIT main*/
+
+.AXIT__main__content__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.AXIT__logo {
+    height: 55px;
+    margin-bottom: 72px;
+    margin-top: 208px;
+}
+
+.AXIT__main__content__text__article1 {
+    font-weight: 500;
+    font-size: 48px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    margin-right: 60px;
+}
+
+.AXIT__main__content__text__article1:after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 1px;
+    background-color: #FFFFFF;
+    margin: 55px 0 42px;
+}
+
+.AXIT__main__content__text__article2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 42px;
+    margin-right: 60px
+}
+
+.AXIT__main__content__text__button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 58px;
+
+    width: 270px;
+    height: 58px;
+    border: 2px solid #FFFFFF;
+    margin-bottom: 185px;
+    cursor: pointer;
+}
+
+.AXIT__main__content__text__button:hover {
+    border: 2px solid #EC7979;
+    color: #EC7979;
+    transition-duration: .5s;
+}
+
+.AXIT__main__content__text__button:active {
+    border: 2px solid #AB4949;
+    background-color: #AB4949;
+    color: #FFFFFF;
+    transition-duration: .5s;
+}
+
+/*AXIT Sing up form*/
+
+.AXIT__main__content__singUp__white {
+    padding: 0 50px;
+    width: 370px;
+    height: 390px;
+    border-radius: 10px 10px 0 0;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 208px;
+}
+
+.AXIT__main__content__singUp__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333333;
+    margin-top: 28px;
+    margin-bottom: 73px;
+    text-align: center;
+}
+
+.AXIT__main__content__singUp__pink {
+    border-radius: 0 0 10px 10px;
+    background-color: #EC7979;
+    width: 470px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.AXIT__main__content__singUp__pink:hover {
+    background-color: #AB4949;
+    transition-duration: .5s;
+}
+
+.AXIT__main__content__singUp__pink:active {
+    background-color: #EC7979;
+    box-shadow: inset 0 0 10px 10px rgba(0, 0, 0, 0.1);
+    transition-duration: .5s;
+}
+
+.AXIT__main__content__singUp__button {
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 60px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.AXIT__main__content__singUp__item {
+    width: 370px;
+    height: 35px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #BDBDBD;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 33px;
+    outline: none;
+}
+
+/*AXIT footer*/
+
+.AXIT__footer {
+    background-color: #F8EFEF;
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+
+.AXIT__footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.AXIT__footer__text_section{
+    max-width: 40.17%;
+}
+
+.AXIT__footer__text_section__title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    margin-bottom: 31px;
+}
+
+.AXIT__footer__text_section__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: #86878B;
+}
+
+.AXIT__footer__icon {
+    width: 70px;
+    cursor: pointer;
+}
+.AXIT__footer__icon:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition-duration: .5s;
+}
+
+/*---------Медиа запросы--------------------------------*/
+
+@media only screen and (max-width : 1024px){
+    /*---------AXIT Main--------------------------*/
+    ._container{
+        max-width: 992px;
+    }
+    .AXIT__logo {
+        margin-bottom: 42px;
+    }
+    .AXIT__main__content__text__article1 {
+        font-size: 36px;
+    }
+    .AXIT__main__content__text__article1:after {
+        width: 115px;
+        margin: 41px 0 31px;
+    }
+    .AXIT__main__content__text__article2 {
+        font-size: 14px;
+        margin-bottom: 31px;
+    }
+    .AXIT__main__content__text__button {
+        width: 183px;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 131px;
+    }
+    /*---------AXIT Sign UP--------------------------*/
+    .AXIT__main__content__singUp__white {
+        width: 298px;
+        height: 390px;
+        margin-top: 208px;
+
+    }
+    .AXIT__main__content__singUp__title {
+        font-size: 18px;
+        margin-top: 28px;
+        margin-bottom: 73px;
+        text-align: center;
+    }
+    .AXIT__main__content__singUp__pink {
+        width: 398px;
+        height: 60px;
+    }
+    .AXIT__main__content__singUp__item {
+        width: 298px;
+    }
+    /*---------AXIT Footer--------------------------*/
+    .AXIT__footer__text_section__title {
+        font-size: 18px;
+        margin-bottom: 23px;
+    }
+    .AXIT__footer__text_section__subtitle {
+        font-size: 14px;
+    }
+    .AXIT__footer__icon {
+        width: 64px;
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .AXIT__logo{
+        display: none;
+    }
+    .AXIT__main__content__container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .AXIT__main__content__text{
+        margin: 140px auto 0;
+    }
+    .AXIT__main__content__text__article1 {
+        text-align: center;
+        margin:0 auto;
+    }
+    .AXIT__main__content__text__article1:after {
+        width: 134px;
+        margin: 44px auto 42px;
+    }
+    .AXIT__main__content__text__article2 {
+        text-align: center;
+        margin: 0 auto 42px;
+    }
+    .AXIT__main__content__text__button {
+        margin:0 auto 56px ;
+    }
+
+    .AXIT__main__content__singUp__white {
+    margin: 60px auto 0;
+    }
+    .AXIT__main__content__singUp__pink {
+    margin: 0 auto 50px;
+    }
+    .AXIT__footer__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .AXIT__footer__icon {
+        margin-right: 0;
+        width: 26px;
+    }
+    .AXIT__footer__text_section{
+        max-width: 100%;
+    }
+    .AXIT__footer__text_section__subtitle {
+        margin-bottom: 35px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .AXIT__header__menu__list {
+        display: none;
+    }
+    .AXIT__header__menu__link {
+        display: none;
+    }
+    .AXIT__footer__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .AXIT__burger__menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 29px;
+        right: 20px;
+        z-index: 10;
+        cursor: pointer;
+
+    }
+    .AXIT__burger__menu:hover {
+        -webkit-transform: rotateZ(-20deg);
+        -ms-transform: rotateZ(-20deg);
+        transform: rotateZ(-20deg);
+        transition-duration: .5s;
+    }
+    .AXIT__burger__menu:active {
+        -webkit-transform: rotateZ(-90deg);
+        -ms-transform: rotateZ(-90deg);
+        transform: rotateZ(-90deg);
+        transition-duration: .5s;
+    }
+    .AXIT__burger__menu__item{
+        width: 30px;
+        height: 4px;
+        background-color: #FFFFFF;
+    }
+    .AXIT__burger__menu__item:not(:last-child){
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    /*---------AXIT header--------------------------*/
+        .header_logo{
+            height: 23px;
+        }
+    /*---------AXIT main--------------------------*/
+
+    .AXIT__main__content__text__article1 {
+        font-size: 32px;
+    }
+
+    .AXIT__main__content__text__article1:after {
+        width: 134px;
+        margin: 44px auto 42px;
+    }
+
+    .AXIT__main__content__text__article2 {
+        font-size: 14px;
+        margin-bottom: 42px;
+    }
+
+    .AXIT__main__content__text__button {
+        font-size: 18px;
+        line-height: 50px;
+
+        width: 288px;
+        height: 50px;
+    }
+
+    /*---------AXIT Sign up--------------------------*/
+
+    .AXIT__main__content__singUp__white {
+        box-sizing: border-box;
+        width: 288px;
+        height: 321px;
+        padding: 0 20px;
+    }
+    .AXIT__main__content__singUp__title {
+        font-size: 14px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .AXIT__main__content__singUp__pink {
+        width: 288px;
+        margin-bottom: 50px;
+    }
+    .AXIT__main__content__singUp__item {
+        width: 240px;
+    }
+
+    /*---------AXIT footer--------------------------*/
+
+    .AXIT__footer__text_section__title {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+
+    .AXIT__footer__text_section__subtitle {
+        font-size: 14px;
+    }
+}
+

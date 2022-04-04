@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
+
+._container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+/*Секция AWESOME TITLE*/
+
+.awesome__content {
+    margin: 104px auto 110px;
+    text-align: center;
+}
+
+.awesome__content__title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.awesome__content__title:after{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    margin: 54px auto 40px;
+}
+
+.awesome__content__subtitle{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+/*Секция AWESOME BLOCKS*/
+
+.awesome__blocks__content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 58px;
+}
+
+.awesome__blocks__content__block{
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 33.3%;
+    padding: 0 15px;
+}
+
+.awesome__blocks__content__text1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 72px auto 42px;
+}
+
+.awesome__blocks__content__text2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width : 1024px){
+    .awesome__content {
+        margin: 96px auto 85px;
+    }
+    .awesome__content__title{
+        font-size: 24px;
+    }
+
+    .awesome__content__title:after{
+        width: 142px;
+        margin: 46px auto 32px;
+    }
+    .awesome__content__subtitle{
+        font-size: 14px;
+    }
+
+    .awesome__blocks__content__text1 {
+        font-size: 18px;
+        margin: 62px auto 38px;
+    }
+    .awesome__blocks__content__text2{
+        font-size: 14px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .awesome__blocks__content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto 58px;
+    }
+    .awesome__blocks__content__block{
+        width: 100%;
+    }
+}
+
+
