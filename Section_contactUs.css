@@ -21,6 +21,7 @@
 .Download__content {
     background-image: url("img/CONTACT_US_backgraund_dark.svg"), url("img/CONTACT_US_backgraund.svg");
     object-fit: cover;
+    background-position: centre;
 }
 .Download__content__container{
     height: 442px;
